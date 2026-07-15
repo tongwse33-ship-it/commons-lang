@@ -16,9 +16,8 @@
 name: Java CI
 
 on:
-  push:
-    branches:
-      - 'master'
+  workflow_dispatch: {}
+  push: {}
   pull_request: {}
 
 permissions:
